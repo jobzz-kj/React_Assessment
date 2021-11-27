@@ -1,3 +1,5 @@
+//This is the Home Page which contains the basic details of the company and other hightlighting components
+
 function Home() {
   return (
     <>
