@@ -1,3 +1,5 @@
+//importing the required packages and files
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import AddVisit from "./AddVisit";
@@ -6,6 +8,7 @@ import VisitDetails from "./VisitDetails";
 import StaffRegistration from "./StaffRegistration";
 import Login from "./Login";
 
+//the main app component
 function App() {
   return (
     <>
@@ -15,7 +18,11 @@ function App() {
 }
 export default App;
 
+//The Routing Component
+
 function MyRouter() {
+  
+  //variable declarations for internal styling
   var footer = {
     display: "grid",
     alignItems: "center",
@@ -62,7 +69,7 @@ function MyRouter() {
           </div>
         </div>
       </div>
-
+//Setting Up the routes and to be rendered components
       <Routes>
         <Route path="/" element={<Home />} />
         {<Route path="/visitlist" element={<VisitList />} />}
