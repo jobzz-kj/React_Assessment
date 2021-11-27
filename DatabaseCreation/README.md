@@ -1,4 +1,4 @@
-# Project_Friday
+# DB Design
 This is simple concept CRUD operations using JS and Sequelize
 
 Steps
@@ -20,9 +20,7 @@ Now we are introducing a controller for the DAO. This controller is just for wra
 Create a folder named controller and inside that create conntroller.js
 
 Here we are using postman to check our api s working
-next I am setting up a route folder for setting up the routes: the routes has been splitted up into two folders in which the reason I will tell shortly
-So create a folder routes then create 2 files routes.js and gigs.route.js
-
+next I am setting up a route folder for setting up the routes: the routes has been splitted up into two folders 
 Now We are going to the final step which is configuring the index file 
 
 
